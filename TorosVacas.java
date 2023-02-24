@@ -5,10 +5,14 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class TorosVacas {
-
+    
     public static LinkedList<Integer> list = new LinkedList<>();
     public static LinkedList<Integer> list2 = new LinkedList<>();
     static int intentos = 1;
+
+    public void ejemplo(){
+        System.out.println("Probando Github.dev");
+    }
 
     public static void main(String[] args) {
         String numAleatorio = generador();
